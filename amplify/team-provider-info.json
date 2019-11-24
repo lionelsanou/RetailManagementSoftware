@@ -1,0 +1,19 @@
+{
+    "ounjedev": {
+        "awscloudformation": {
+            "AuthRoleName": "ounjemicrosite-ounjedev-20191117205056-authRole",
+            "UnauthRoleArn": "arn:aws:iam::127115454293:role/ounjemicrosite-ounjedev-20191117205056-unauthRole",
+            "AuthRoleArn": "arn:aws:iam::127115454293:role/ounjemicrosite-ounjedev-20191117205056-authRole",
+            "Region": "us-east-1",
+            "DeploymentBucketName": "ounjemicrosite-ounjedev-20191117205056-deployment",
+            "UnauthRoleName": "ounjemicrosite-ounjedev-20191117205056-unauthRole",
+            "StackName": "ounjemicrosite-ounjedev-20191117205056",
+            "StackId": "arn:aws:cloudformation:us-east-1:127115454293:stack/ounjemicrosite-ounjedev-20191117205056/dccf7a20-09a5-11ea-92b1-0a73682547f5"
+        },
+        "categories": {
+            "auth": {
+                "ounjemicrositeadde38b5": {}
+            }
+        }
+    }
+}

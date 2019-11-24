@@ -1,0 +1,24 @@
+<app-navigation [userIsLoggedIn]="isLoggedIn"></app-navigation>
+<br/>
+
+<h4>Welcome <b>{{email}}</b></h4>
+<br/>
+<p>We will need to Collect More Information from you:</p>
+
+<div class="container">
+<div class="row">
+<div class="cols-md-5">
+<form [formGroup]="userForm">
+    <div class="form-group">
+        <label for="firstname">First Name:</label>
+        <input type="text" class="form-control" formControlName="firstname" placeholder="First Name">
+    </div>
+    <div class="form-group">
+        <label for="lastname">Last Name</label>
+        <input type="text" class="form-control" formControlName="lastname" placeholder="Last Name">
+    </div>
+    <button type="submit" (click)="onSubmit()">Submit</button>
+</form>
+</div>
+</div>
+</div>

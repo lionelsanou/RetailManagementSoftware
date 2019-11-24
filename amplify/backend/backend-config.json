@@ -1,0 +1,26 @@
+{
+	"auth": {
+		"ounjemicrositeadde38b5": {
+			"service": "Cognito",
+			"providerPlugin": "awscloudformation",
+			"dependsOn": []
+		}
+	},
+	"api": {
+		"ounjemicrosite": {
+			"service": "AppSync",
+			"providerPlugin": "awscloudformation",
+			"output": {
+				"authConfig": {
+					"additionalAuthenticationProviders": [],
+					"defaultAuthentication": {
+						"authenticationType": "AMAZON_COGNITO_USER_POOLS",
+						"userPoolConfig": {
+							"userPoolId": "authounjemicrositeadde38b5"
+						}
+					}
+				}
+			}
+		}
+	}
+}
